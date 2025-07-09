@@ -1,5 +1,5 @@
 # StoryScout - A Smarter Way to Find Your Next Read
-                                                             “Where stories and semantics meet”
+                                                        “Where stories and semantics meet”
                                                                   
 Welcome to StoryScout, a personal project built to explore how Large Language Models (LLMs) and modern NLP tools can make book recommendations more human. Instead of relying on ratings or keywords, StoryScout understands the meaning, tone, and emotion behind both books and your queries, like a well-read friend who gets what you’re in the mood for.
 
@@ -20,21 +20,21 @@ This is more than a book recommender. It's an experiment in semantic search, zer
     
 
 # Tech Stack
-  This project is built in Python 3.11 using the following tools:
+   This project is built in Python 3.11 using the following tools:
   
-  **HuggingFace Transformers** – For embeddings, zero-shot classification, and sentiment analysis
+   **HuggingFace Transformers** – For embeddings, zero-shot classification, and sentiment analysis
   
-  **LangChain** – For working with LLM tools and chaining responses
+   **LangChain** – For working with LLM tools and chaining responses
   
-  **ChromaDB** – For fast vector search
+   **ChromaDB** – For fast vector search
   
-  **Gradio** – To build a simple and clean web UI
+   **Gradio** – To build a simple and clean web UI
   
-  **Pandas, Seaborn, Matplotlib **– For data exploration
+   **Pandas, Seaborn, Matplotlib **– For data exploration
   
-  **KaggleHub** – To easily download book datasets
+   **KaggleHub** – To easily download book datasets
     
-  **Python-Dotenv** – To securely manage API keys
+   **Python-Dotenv** – To securely manage API keys
 
 
 # Features In Action
