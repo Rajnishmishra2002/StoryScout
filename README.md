@@ -1,58 +1,58 @@
 # StoryScout - A Smarter Way to Find Your Next Read
-                                                                  “Where stories and semantics meet”
+                                                             “Where stories and semantics meet”
                                                                   
 Welcome to StoryScout, a personal project built to explore how Large Language Models (LLMs) and modern NLP tools can make book recommendations more human. Instead of relying on ratings or keywords, StoryScout understands the meaning, tone, and emotion behind both books and your queries, like a well-read friend who gets what you’re in the mood for.
 
 This is more than a book recommender. It's an experiment in semantic search, zero-shot classification, emotion analysis, and a user-friendly website, all wrapped up in a clean Gradio interface.
 
  # What This Project Does
-   ** 1. Semantic Search**
+   1. Semantic Search
         Search books by ideas and themes (e.g., "a story about revenge and redemption"), not just titles or tags.
     
-   ** 2. Genre Classification**
+   2. Genre Classification
         No hard-coded genres here. Chapterly uses zero-shot classification to decide if a book is fiction or nonfiction based on its description.
     
-   ** 3. Emotion & Tone Analysis**
+   3. Emotion & Tone Analysis
         Find books based on how they make you feel — joyful, tragic, suspenseful, reflective. All done using LLM-based sentiment/emotion analysis.
     
-    4. Interactive App with Gradio
+  4. Interactive App with Gradio
         All features are tied together in a simple, clean Gradio dashboard where users can explore, search, and filter books.
     
 
 # Tech Stack
-    This project is built in Python 3.11 using the following tools:
+  This project is built in Python 3.11 using the following tools:
+  
+  **HuggingFace Transformers** – For embeddings, zero-shot classification, and sentiment analysis
+  
+  **LangChain** – For working with LLM tools and chaining responses
+  
+  **ChromaDB** – For fast vector search
+  
+  **Gradio** – To build a simple and clean web UI
+  
+  **Pandas, Seaborn, Matplotlib **– For data exploration
+  
+  **KaggleHub** – To easily download book datasets
     
-    HuggingFace Transformers – For embeddings, zero-shot classification, and sentiment analysis
-    
-    LangChain – For working with LLM tools and chaining responses
-    
-    ChromaDB – For fast vector search
-    
-    Gradio – To build a simple and clean web UI
-    
-    Pandas, Seaborn, Matplotlib – For data exploration
-    
-    KaggleHub – To easily download book datasets
-    
-    Python-Dotenv – To securely manage API keys
+  **Python-Dotenv** – To securely manage API keys
 
 
 # Features In Action
   Here’s what you can do in the app:
 
- ** Search:**
+ **1.Search:**
   
   “a book about a girl who escapes a cult”
   “an emotional memoir about grief and healing”
   “a dark, suspenseful thriller with twists”
   
- ** Filter:**
+**2.Filter:**
   
   Fiction / Non-Fiction
   
   Emotions: Joy, Sadness, Suspense, Anger, etc.
   
-**  View:**
+**3.View:**
   
   Title, author, description, tone scores, genre label
   
