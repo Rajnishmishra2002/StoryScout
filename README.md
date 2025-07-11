@@ -1,5 +1,5 @@
 # StoryScout - A Smarter Way to Find Your Next Read
-                                                        “Where stories and semantics meet”
+                                           “Where stories and semantics meet”
                                                                   
 Welcome to StoryScout, a personal project built to explore how Large Language Models (LLMs) and modern NLP tools can make book recommendations more human. Instead of relying on ratings or keywords, StoryScout understands the meaning, tone, and emotion behind both books and your queries, like a well-read friend who gets what you’re in the mood for.
 
